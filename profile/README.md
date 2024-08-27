@@ -23,7 +23,7 @@ Business process engine vendors can provide implementations called adapters that
 
 Vendors:
 
-* Camunda [<img src="profile/external-link.png">](https://camunda.com):
+* Camunda [<img src="./external-link.png">](https://camunda.com):
     * [Version 7 adapter](https://github.com/camunda-community-hub/vanillabp-camunda7-adapter) (about [Camunda Platform 7](https://docs.camunda.org))
     * [Version 8 adapter](https://github.com/camunda-community-hub/vanillabp-camunda8-adapter) (about [Camunda Platform 8](https://docs.camunda.io))
 
