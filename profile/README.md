@@ -41,7 +41,7 @@ There are blueprints available for building projects using VanillaBP. Choose the
    *Type:* A (micro-)service responsible for one workflow module [<img src="./external-link.png">](https://github.com/vanillabp/spring-boot-support#workflow-modules)
    integrating into the VanillaBP Business Cockpit [<img src="./external-link.png">](https://github.com/vanillabp/business-cockpit)
    for operating user tasks and workflows.<br>
-   *Available for:* Sprint Boot, Jakarta-EE, Quarkus
+   *Available for:* [Sprint Boot](https://github.com/vanillabp/blueprint-workflowmodule-springboot-standalone-businesscockpit), Jakarta-EE, Quarkus
 1. **Workflow Module:**<br>
    *Type:* An independent workflow module [<img src="./external-link.png">](https://github.com/vanillabp/spring-boot-support#workflow-modules)
    to be hosted next to other workflow modules in one (micro-)service.
