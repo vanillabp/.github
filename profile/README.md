@@ -36,12 +36,12 @@ There are blueprints available for building projects using VanillaBP. Choose the
 1. **Standalone:**<br>
    *Type:* A (micro-)service responsible for one workflow module [<img src="./external-link.png">](https://github.com/vanillabp/spring-boot-support#workflow-modules)
    having a custom user interface for operating user tasks and workflows (not part of the blueprint).<br>
-   *Available for:* [Spring Boot](https://github.com/vanillabp/blueprint-workflowmodule-springboot-standalone), Jakarta-EE, Quarkus
+   *Available for:* [Spring Boot & JPA](https://github.com/vanillabp/blueprint-workflowmodule-springboot-standalone), [Spring Boot & MongoDB](https://github.com/vanillabp/blueprint-workflowmodule-springboot-standalone/tree/variant/mongodb), Jakarta-EE, Quarkus
 1. **Standalone leveraging Business Cockpit:**<br>
    *Type:* A (micro-)service responsible for one workflow module [<img src="./external-link.png">](https://github.com/vanillabp/spring-boot-support#workflow-modules)
    integrating into the VanillaBP Business Cockpit [<img src="./external-link.png">](https://github.com/vanillabp/business-cockpit)
    for operating user tasks and workflows.<br>
-   *Available for:* [Sprint Boot](https://github.com/vanillabp/blueprint-workflowmodule-springboot-standalone-businesscockpit), Jakarta-EE, Quarkus
+   *Available for:* [Sprint Boot & JPA, React](https://github.com/vanillabp/blueprint-workflowmodule-springboot-standalone-businesscockpit), [Spring Boot & MongoDB](https://github.com/vanillabp/blueprint-workflowmodule-springboot-standalone-businesscockpit/tree/variant/mongodb), Jakarta-EE, Quarkus
 1. **Workflow Module:**<br>
    *Type:* An independent workflow module [<img src="./external-link.png">](https://github.com/vanillabp/spring-boot-support#workflow-modules)
    to be hosted next to other workflow modules in one (micro-)service.
