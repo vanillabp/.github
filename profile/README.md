@@ -93,3 +93,15 @@ BPMN was developed by the [Object Management Group (OMG)](https://www.omg.org/bp
 [ISO standard](https://www.iso.org/standard/62652.html).
 
 To draw your own models, try [Camunda's modeler](https://camunda.com/download/modeler/).
+
+## Noteworthy & Contributors
+
+VanillaBP was developed by [Phactum](https://www.phactum.at) with the intention of giving back to the community as it has benefited the community in the past.
+
+![Phactum](./phactum.png)
+
+## License
+
+Copyright 2026 Phactum Softwareentwicklung GmbH
+
+Licensed under the Apache License, Version 2.0
