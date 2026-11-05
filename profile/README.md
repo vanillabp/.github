@@ -71,8 +71,8 @@ one when your application needs what it does.
   people work in. It lists their user tasks and business cases, whichever engine runs them.
   Its [wiki](https://github.com/vanillabp/business-cockpit/wiki) explains how to connect a
   workflow module. The part which runs in your application is one adapter per engine:
-    * [Business Cockpit adapter for Camunda 7](https://github.com/vanillabp/businesscockpit-camunda7-adapter)
-    * [Business Cockpit adapter for Camunda 8](https://github.com/vanillabp/businesscockpit-camunda8-adapter)
+    * [Business Cockpit adapter for Camunda 7](https://github.com/vanillabp/business-cockpit-camunda7-adapter)
+    * [Business Cockpit adapter for Camunda 8](https://github.com/vanillabp/business-cockpit-camunda8-adapter)
     * An adapter for the Process Engine API is in preparation.
 
 ## Blueprints
