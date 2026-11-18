@@ -42,14 +42,19 @@ more than one adapter at a time. That is how you change the engine: new workflow
 one, and running workflows finish on the old one.
 
 * Camunda [<img src="./external-link.png">](https://camunda.com):
-    * [Camunda 7 adapter](https://github.com/camunda-community-hub/vanillabp-camunda7-adapter),
+    * [Camunda 7 adapter](https://github.com/vanillabp/camunda7-adapter),
       for the embedded engine ([about Camunda 7](https://docs.camunda.org))
-    * [Camunda 8 adapter](https://github.com/camunda-community-hub/vanillabp-camunda8-adapter),
+    * [Camunda 8 adapter](https://github.com/vanillabp/camunda8-adapter),
       for a Camunda 8 cluster ([about Camunda 8](https://docs.camunda.io))
+* [Process Engine API](https://github.com/bpm-crafters/process-engine-api) of bpm-crafters:
+    * [Process Engine API adapter](https://github.com/vanillabp/process-engine-api-adapter),
+      for every engine the Process Engine API supports. This adapter is experimental. Its
+      README lists what works so far.
 
-Both adapters live in the Camunda Community Hub. An adapter for the
-[Process Engine API](https://github.com/bpm-crafters/process-engine-api) of bpm-crafters is in
-preparation.
+The adapters for VanillaBP 1 stay in the Camunda Community Hub
+([Camunda 7](https://github.com/camunda-community-hub/vanillabp-camunda7-adapter),
+[Camunda 8](https://github.com/camunda-community-hub/vanillabp-camunda8-adapter)). Use them only
+for an application which still runs on VanillaBP 1.
 
 ## Add-ons
 
@@ -73,7 +78,8 @@ one when your application needs what it does.
   workflow module. The part which runs in your application is one adapter per engine:
     * [Business Cockpit adapter for Camunda 7](https://github.com/vanillabp/business-cockpit-camunda7-adapter)
     * [Business Cockpit adapter for Camunda 8](https://github.com/vanillabp/business-cockpit-camunda8-adapter)
-    * An adapter for the Process Engine API is in preparation.
+    * [Business Cockpit adapter for the Process Engine API](https://github.com/vanillabp/business-cockpit-process-engine-api-adapter),
+      experimental like the Process Engine API adapter
 
 ## Blueprints
 
